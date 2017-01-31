@@ -1,10 +1,9 @@
 @echo off
-
-cd C:\
-mkdir Go\Work
-cd C:\Go\Work
+set GOPATH=C:\Go\Work
+mkdir %GOPATH%
+cd %GOPATH%
 mkdir bin
 mkdir pkg
 mkdir src
-set GOPATH=C:\Go\Work
-echo Gopath er nå satt til %GOPATH%
+echo Your GOPATH has been set to %GOPATH%
+echo You can now place your projects in %GOPATH%\src
