@@ -1,5 +1,6 @@
 @echo off
 setx GOPATH C:\Go\Work
+pause
 set GOPATH %GOPATH%
 mkdir "%GOPATH%"
 cd "%GOPATH%"
